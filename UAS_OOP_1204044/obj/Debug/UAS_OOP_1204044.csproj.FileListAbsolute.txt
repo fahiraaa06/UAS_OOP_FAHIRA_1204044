@@ -1,0 +1,10 @@
+c:\users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\bin\Debug\UAS_OOP_1204044.exe.config
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\bin\Debug\UAS_OOP_1204044.exe
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\bin\Debug\UAS_OOP_1204044.pdb
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.csprojResolveAssemblyReference.cache
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.Prodi.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.Properties.Resources.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.csproj.GenerateResource.Cache
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.exe
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.pdb
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.Home.resources
