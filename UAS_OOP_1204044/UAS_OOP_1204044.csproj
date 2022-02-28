@@ -46,13 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Daftar_Ulang_Mahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daftar_Ulang_Mahasiswa.Designer.cs">
+      <DependentUpon>Daftar_Ulang_Mahasiswa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mahasiswa.cs" />
+    <Compile Include="Mahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mahasiswa.Designer.cs">
+      <DependentUpon>Mahasiswa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Prodi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,8 +72,50 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateMahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateMahasiswa.Designer.cs">
+      <DependentUpon>UpdateMahasiswa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProdi.Designer.cs">
+      <DependentUpon>UpdateProdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTransaksi.Designer.cs">
+      <DependentUpon>UpdateTransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMahasiswa.Designer.cs">
+      <DependentUpon>ViewMahasiswa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewProdi.Designer.cs">
+      <DependentUpon>ViewProdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTransaksi.Designer.cs">
+      <DependentUpon>ViewTransaksi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Daftar_Ulang_Mahasiswa.resx">
+      <DependentUpon>Daftar_Ulang_Mahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mahasiswa.resx">
+      <DependentUpon>Mahasiswa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Prodi.resx">
       <DependentUpon>Prodi.cs</DependentUpon>
@@ -76,6 +129,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UpdateMahasiswa.resx">
+      <DependentUpon>UpdateMahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProdi.resx">
+      <DependentUpon>UpdateProdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTransaksi.resx">
+      <DependentUpon>UpdateTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMahasiswa.resx">
+      <DependentUpon>ViewMahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewProdi.resx">
+      <DependentUpon>ViewProdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTransaksi.resx">
+      <DependentUpon>ViewTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

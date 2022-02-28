@@ -8,3 +8,11 @@ C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_120404
 C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.exe
 C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.pdb
 C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.Home.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.Mahasiswa.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.ViewProdi.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.ViewMahasiswa.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.UpdateMahasiswa.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.UpdateProdi.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.Daftar_Ulang_Mahasiswa.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.UpdateTransaksi.resources
+C:\Users\user\onedrive\gambar\dokumen\visual studio 2015\Projects\UAS_OOP_1204044\UAS_OOP_1204044\obj\Debug\UAS_OOP_1204044.ViewTransaksi.resources

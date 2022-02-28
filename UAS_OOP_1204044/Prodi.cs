@@ -57,7 +57,7 @@ namespace UAS_OOP_1204044
         {
             if (txtBiayaKuliah.Text == "")
             {
-                epWarning.SetError(txtBiayaKuliah, "Textbox Huruf tidak boleh kosong!");
+                epWarning.SetError(txtBiayaKuliah, "Textbox Biaya Kuliah tidak boleh kosong!");
                 epWrong.SetError(txtBiayaKuliah, "");
                 epCorrect.SetError(txtBiayaKuliah, "");
             }

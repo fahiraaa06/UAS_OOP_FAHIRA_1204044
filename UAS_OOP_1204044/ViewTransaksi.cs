@@ -1,20 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
 namespace UAS_OOP_1204044
 {
-    public partial class ViewProdi : Form
+    public partial class ViewTransaksi : Form
     {
-        public ViewProdi()
+        private DataSet dsTr;
+
+        public ViewTransaksi()
         {
             InitializeComponent();
         }
-
-        private DataSet dsProdi;
-
-        public DataSet CreateProdiDataSet()
+        public DataSet CreateTransaksiDataSet()
         {
             DataSet myDataSet = new DataSet();
             {
@@ -26,12 +31,12 @@ namespace UAS_OOP_1204044
 
                     myCommand.Connection = myConnection;
 
-                    myCommand.CommandText = "SELECT * FROM ms_prodi";
+                    myCommand.CommandText = "SELECT * FROM tr_daftar_ulang";
                     myCommand.CommandType = CommandType.Text;
 
                     SqlDataAdapter myDataAdapter = new SqlDataAdapter();
                     myDataAdapter.SelectCommand = myCommand;
-                    myDataAdapter.TableMappings.Add("Table", "Prodi");
+                    myDataAdapter.TableMappings.Add("Table", "Daftar_ulang_Mahasiswa");
 
                     myDataAdapter.Fill(myDataSet);
                 }
@@ -43,17 +48,11 @@ namespace UAS_OOP_1204044
                 return myDataSet;
             }
         }
-
-        private void RefreshDataset()
-        {
-            dsProdi = CreateProdiDataSet();
-
-            dgProdi.DataSource = dsProdi.Tables["Prodi"];
-        }
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-            RefreshDataset();
+            dsTr = CreateTransaksiDataSet();
+
+            dgTransaksi.DataSource = dsTr.Tables["Mahasiswa"];
         }
-       
     }
 }
